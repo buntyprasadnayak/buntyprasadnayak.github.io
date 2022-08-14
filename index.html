@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunty Prasad Nayak</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/570b85b009.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class ="logo"> -->
+                <ul class="logo-text"><span>B</span>unty.</ul>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#domain">Domain</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <!-- <i class = "fas-fa-times" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <i class = "fas-fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+
+            <div class="header_text">
+                <p> I'm <span class="auto-type"></span> </p>
+                <h1>Hi, I'm <span>Bunty Prasad </span><br>Nayak</h1>
+
+                <button class="btn-primary" onclick="ShowMessage()"><a href="#" >Hire Me</a></button>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------about-------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="images/user.png" > -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam beatae in praesentium iste neque laboriosam provident recusandae sunt minima non quidem iure accusantium aliquid, odit ex qui mollitia illo rem.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id ="skills">
+                        <ul>
+                            <li><span>Machine Learning</span><br> Building ML Model </li>
+
+                            <li><span>UI/UX</span><br> Designing Web App Interface </li>
+                            
+                            <li><span>Python</span><br> Flask / Django </li>
+                            <li><span>Git/Github</span>
+                            <li><span>MySQL</span>
+                            <li><span>Problem Solving</span><br> Data Structure and Algorithm </li>
+
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id = "experience">
+                        <ul>
+                            <li><span>May 2022 - June 2022</span><br> Intern in System Programming at Central Coalfield Limited</li> </li>
+
+                            <li><span>2022 - 2023</span><br> internship at a company </li>
+                    </div>  
+                    
+                    <div class="tab-contents" id = "education">
+                        <ul>
+                            <li><span>August 2020 - July 2024</span><br> B.E. (CSE) - Chandigarh University <br>8.04 CGPA (till 4th sem)</li> 
+
+                            <li><span>2018 - 2020</span><br> Intermediate - DAV Public School, Dhori <br>91.4% </li>
+                    </div>      
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+ <!--My Domain -->   
+<div id="domain">
+    <div class="container">
+        <h1 class="sub-title">My Domain</h1>
+        <div class="domain-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Development</h2>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique itaque, laudantium animi veritatis consequatur laboriosam </p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                
+                <h2>Machine Learning Development</h2>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique itaque, laudantium animi veritatis consequatur laboriosam </p>
+                <a href="#">Learn More</a>
+            </div>
+            
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Research Assistant</h2>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique itaque, laudantium animi veritatis consequatur laboriosam</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Course and Certificate-->
+
+<div id ="course"> 
+    <div class="container">
+        <h1 class="project-title">Courses,Certificates and Achievements</h1>
+        <div class="rows">
+
+            <div class="Course-col1">
+                <h2>Machine Learning </h2>
+                <p>Coursera</p>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/6ZSBM9SUCB9U" target="_blank" >Certificate</a>
+            </div>
+
+            <div class="Course-col2">
+                <h2>Goldman Sachs Engineering Virtual Program </h2>
+                <p>Powered By- Forage ,Practical task modules in: Crack leaked password database</p>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/6ZSBM9SUCB9U" target="_blank" >Certificate</a>  
+            </div>
+               
+        </div>
+    </div>
+</div>
+
+    <!--Projects-->
+    <div id ="project"> 
+        <div class="container">
+            <h1 class="project-title">My Awesome Projects</h1>
+            <div class="project-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>Sentiment Analysis</h3>
+                        <p>Sentiment Classification using LSTM model to classify the tweet either it is positive or negative For Building, used RNN type Neural Network LSTM(Long short term Memory Network )and dense layer at the end and to avoid overfitting we uses drop-out mechanism in between Tools Used - Python, Colab , Tensorflow</p>
+                        <a href="https://github.com/buntyprasadnayak/Sentiment-Analysis" target = "_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>Stock price Prediction</h3>
+                        <p>Sentiment Classification using LSTM model to classify the tweet either it is positive or negative For Building, used RNN type Neural Network LSTM(Long short term Memory Network )and dense layer at the end and to avoid overfitting we uses drop-out mechanism in between Tools Used - Python, Colab , Tensorflow</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>Sentiment Analysis</h3>
+                        <p>Sentiment Classification using LSTM model to classify the tweet either it is positive or negative For Building, used RNN type Neural Network LSTM(Long short term Memory Network )and dense layer at the end and to avoid overfitting we uses drop-out mechanism in between Tools Used - Python, Colab , Tensorflow</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+    
+                   
+            </div>
+            <a href="" class="btn ">See More</a>
+        </div>
+    </div>
+    
+<!-- -------------------Contact -------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fas fa-paper-plane"></i> buntyprasadnayak60@gmail.com</p>
+                <p> <i class="fas fa-phone-square-alt"></i> 9546621629</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="#" download class="btn btn2">Download CV</a>
+        </div>
+
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> © Copyright . Made with ❤️ by <span class="name-copyright">B</span> <span class="name2-copyright">unty.</span> </p>
+        
+    </div>
+</div>
+
+    <!--JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script> 
+
+    var typed = new Typed(".auto-type" , {
+        strings : ["Software Engineer !" , "ML Engineer !", "Researcher !"  ],
+        typeSpeed : 100,
+        backspeed : 300,
+        loop: true
+    })
+
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    // var Hire = document.getElementById("HireMessage");
+    function ShowMessage(){
+        document.getElementById('btn-primary').innerHTML = "Thank you !, for hiring me ! ";
+        // alert("Please")
+        
+
+    }
+
+</script> 
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+
+</script>
+
+</body>
+</html>
