@@ -37,11 +37,14 @@ nav{
     font-size:70px;
     font-family: 'Brush Script MT', cursive;
     font-weight:bold;
+    text-decoration: none;
+    color: white;
    
 }
 .logo-text span {
     font-family: 'Brush Script MT', cursive;
     color: #ff004f;
+    
 }
 /* .logo{
     width: 140px;
@@ -52,17 +55,21 @@ nav{
     width: 90px;
     border-radius: 10px;
     text-decoration: none;
+    cursor: pointer;
 }
 .btn-primary a{
     text-decoration: none;
     color: red;
 
 }
-
+.btn-primary:hover{
+    background: red
+}
 .btn-primary:hover::after{
     width: 100%;
     color: black;
 } 
+
 nav ul li {
     display: inline-block;
     list-style-type: none;
@@ -403,6 +410,11 @@ form .btn2{
     font-size: 25px;
     font-weight: 300;
 
+}
+#msg {
+    color: #61b752;
+    margin-top: -30px;
+    display: block;
 }
 
 /* ----------css for small screens -------------------------------- */
